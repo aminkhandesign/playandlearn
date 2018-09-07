@@ -1,0 +1,35 @@
+{
+  "name": "playandlearn",
+  "version": "1.0.0",
+  "description": "Learn with gamification",
+  "main": "index.js",
+  "scripts": {
+    "build" : "webpack --watch",
+    "start": "node myserver.js"
+  },
+  "keywords": [
+    "learn",
+    "kids",
+    "teaching",
+    "tool",
+    "games",
+    "gamification",
+    "school"
+  ],
+  "author": "Amin Khan Design",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
