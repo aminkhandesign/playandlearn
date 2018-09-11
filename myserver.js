@@ -24,8 +24,8 @@ database: 'playandlearn'
 })
 
 const app = express();
-
-app.get('/',(req,res)=>{
+const host  = 'still-plains-93897.herokuapp.com';
+app.get('host=still-plains-93897.herokuapp.com',(req,res)=>{
     res.sendFile(path.join(__dirname+'/public/index.html'));
 })
 app.use(express.static('public'));
