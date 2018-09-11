@@ -1,0 +1,13 @@
+#ignore images 
+public/images/*
+src/images/*
+
+# node modules
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+
+# misc
+.DS_STORE
+.oldgit/*
